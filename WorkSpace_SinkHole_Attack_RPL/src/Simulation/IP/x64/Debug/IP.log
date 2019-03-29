@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  DNS.c
+  ICMP.c
+c:\users\user\downloads\sink_hole_rpl_v11.0\64bit\code\ip\icmp.c(587): warning C4101: 'j': unreferenced local variable
+c:\users\user\downloads\sink_hole_rpl_v11.0\64bit\code\ip\icmp.c(587): warning C4101: 'i': unreferenced local variable
+  IGMP.c
+  IGMP_Host.c
+  IGMP_Msg.c
+  IGMP_Router.c
+  IP.c
+  IP_Routing.c
+  IP_Utility.c
+  Multicast.c
+  NAT.c
+  PIM_Config.c
+  PIM_Group.c
+  PIM_Hello.c
+  PIM_Join.c
+  PIM_Msg.c
+  PIM_Neighbor.c
+  PIM_Print.c
+  PIM_Route.c
+  PIM_Route_Msg.c
+  Generating Code...
+  Compiling...
+  PIM_SM.c
+  VPN.c
+c:\users\user\downloads\sink_hole_rpl_v11.0\64bit\code\ip\vpn.c(205): warning Msg: fn_NetSim_IP_VPN_GetIPFromServer needs to be implemented for IPV6
+c:\users\user\downloads\sink_hole_rpl_v11.0\64bit\code\ip\vpn.c(326): warning C4028: formal parameter 1 different from declaration
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\IP\..\Dll\IP.dll) does not match the Linker's OutputFile property value (C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\libIP.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1204,5): warning MSB8012: TargetName(IP) does not match the Linker's OutputFile property value (libIP). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DNS.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  IP.lib(IPLib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+DNS.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\Dll\IP.lib and object ..\Dll\IP.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+IP.lib(IPLib.obj) : warning LNK4099: PDB 'IPLib.pdb' was not found with 'IP.lib(IPLib.obj)' or at 'C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\IPLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\List.pdb'; linking object as if no debug info
+  IP.vcxproj -> C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\IP\..\Dll\IP.dll

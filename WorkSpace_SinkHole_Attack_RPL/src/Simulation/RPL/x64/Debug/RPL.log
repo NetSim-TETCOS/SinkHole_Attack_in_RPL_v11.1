@@ -1,0 +1,27 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  DAO.c
+  DIO.c
+  DIS.c
+  DODAG.c
+  Malicious.c
+  Neighbor.c
+  RPL.c
+c:\users\user\downloads\sink_hole_rpl_v11.0\64bit\code\rpl\rpl.c(18): warning C4028: formal parameter 1 different from declaration
+  RPL_enum.c
+  RPL_Message.c
+  SequenceNumber.c
+  Trickle.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\RPL\..\Dll\RPL.dll) does not match the Linker's OutputFile property value (C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\libRPL.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1204,5): warning MSB8012: TargetName(RPL) does not match the Linker's OutputFile property value (libRPL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DAO.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  RPLlib.lib(RPLlib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+DAO.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\Dll\RPL.lib and object ..\Dll\RPL.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+RPLlib.lib(RPLlib.obj) : warning LNK4099: PDB 'RPLlib.pdb' was not found with 'RPLlib.lib(RPLlib.obj)' or at 'C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\RPLlib.pdb'; linking object as if no debug info
+IP.lib(IPLib.obj) : warning LNK4099: PDB 'IPLib.pdb' was not found with 'IP.lib(IPLib.obj)' or at 'C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\IPLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\Dll\List.pdb'; linking object as if no debug info
+  RPL.vcxproj -> C:\Users\user\Downloads\SINK_HOLE_RPL_v11.0\64bit\Code\RPL\..\Dll\RPL.dll

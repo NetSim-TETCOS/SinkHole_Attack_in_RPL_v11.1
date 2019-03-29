@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DAO.c" />
+    <ClCompile Include="DIO.c" />
+    <ClCompile Include="DIS.c" />
+    <ClCompile Include="DODAG.c" />
+    <ClCompile Include="Neighbor.c" />
+    <ClCompile Include="RPL.c" />
+    <ClCompile Include="RPL_enum.c" />
+    <ClCompile Include="RPL_Message.c" />
+    <ClCompile Include="SequenceNumber.c" />
+    <ClCompile Include="Trickle.c" />
+    <ClCompile Include="Malicious.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RPL.h" />
+    <ClInclude Include="RPL_enum.h" />
+    <ClInclude Include="RPL_Message.h" />
+  </ItemGroup>
+</Project>
