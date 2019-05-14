@@ -310,7 +310,7 @@
           </ROUTING_PROTOCOL>
         </LAYER>
       </DEVICE>
-      <DEVICE DEFAULT_DEVICE_NAME="Sensor" DEVICE_ID="7" DEVICE_IMAGE="WirelessSensor.png" DEVICE_NAME="Wireless_Sensor_7" DEVICE_TYPE="IOT_Sensors" INTERFACE_COUNT="1" TYPE="SENSOR" WIRESHARK_OPTION="Disable">
+      <DEVICE DEFAULT_DEVICE_NAME="Sensor" DEVICE_ID="7" DEVICE_IMAGE="malicious_sensor.png" DEVICE_NAME="Wireless_Sensor_7" DEVICE_TYPE="IOT_Sensors" INTERFACE_COUNT="1" TYPE="SENSOR" WIRESHARK_OPTION="Disable">
         <POS_3D X_OR_LON="393.79" Y_OR_LAT="245.35" Z="0">
           <MOBILITY MODEL="NO_MOBILITY"/>
         </POS_3D>
